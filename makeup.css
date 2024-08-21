@@ -1,0 +1,158 @@
+body{
+    background-image: url("bride1_files/makeupwall.jpg");
+     /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 2%;
+
+}                       
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+}
+.menu li{
+    list-style: none;
+    color: #1f1547;
+    margin: 30px;
+    padding: 15px;
+    font-weight: 30px;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-size: larger;
+    font-weight:bolder;
+    position: initial; 
+    overflow: hidden; 
+    transition: all 1s ease;
+}
+.menu li:hover{
+    transform: scale(1,1); ;
+}
+.logo{
+    width: 350px;
+    height: 100px;
+   
+}
+a{
+    text-decoration: none;
+    color: rgba(241, 236, 236, 0.783)!important ;
+
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color:transparent;
+    color:rgb(250, 246, 246);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Playfair Display", serif;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #da2360;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+ 
+   .hid{
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing:x-height;
+    font-weight: 100;
+    font-style: normal;
+    color: antiquewhite;
+    font-style: italic;
+    margin-left: 500px;
+    font-size: xx-large;
+    
+    
+   }
+   .pic{
+    display: flex;
+   }
+ .imgi{
+    width: 15%;
+    height: 30%;
+    border: transparent 5p solid;
+    border-radius: 300px;
+    margin-left: 150px;
+    margin-top: 80px;
+    transition: all 1s ease;
+   
+ }
+ .imgi:hover{
+    transform: scale(1.25,1.25); ;
+ }
+ 
+ .Signature{
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing:x-height;
+    font-weight: 60px;
+    font-style: normal;
+    color: white;
+    font-style: italic;
+    margin-left: 150px;
+    margin-top: 150px;
+    font-size: xx-large;
+ }
+ .imgii{
+  width: 15%;
+  height: 30%;
+  border: transparent 5p solid;
+  border-radius: 300px;
+  margin-left: 150px;
+  margin-top: 150px;
+  transition: all 1s ease;
+ }
+ .imgii:hover{
+  transform: scale(1.25,1.25); ;
+}
+ .imgiii{
+  width: 15%;
+  height: 25%;
+  border: transparent 5p solid;
+  border-radius: 300px;
+  margin-left: 150px;
+  margin-top: 100px;
+  transition: all 1s ease;
+ }
+ .imgiii:hover{
+  transform: scale(1.25,1.25); ;
+}

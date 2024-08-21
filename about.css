@@ -1,0 +1,195 @@
+
+body{
+    background: url("bride1_files/Makeup-Brush-Wallpaper-21079.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 2%;
+
+}                       
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+}
+.menu li{
+    list-style: none;
+    color: #1f1547;
+    margin: 30px;
+    padding: 15px;
+    font-weight: 30px;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-size: larger;
+    font-weight:bolder;
+    position: initial; 
+    overflow: hidden; 
+    transition: all 1s ease;
+}
+.menu li:hover{
+    transform: scale(1,1); 
+}
+.logo{
+    width: 350px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: rgba(241, 236, 236, 0.783)!important ;
+
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color:transparent;
+    color:rgb(250, 246, 246);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Playfair Display", serif;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #da2360;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  
+  .black-box {
+    /* background-color: black !important;
+    color: white; */
+    background: rgba( 21, 21, 21, 0.45 );
+box-shadow: 0 8px 32px 0 rgba(243, 76, 204, 0.37);
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 60;
+    margin: 20px auto; /* Center the box and add top margin */
+
+    
+}
+
+.black-box h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 8em;
+    color: #d5cccf; /* Shiny gold color */
+    text-shadow: 1px 1px 2px #000;
+    margin-left: 90px;
+    transition: all 1s ease-in-out;
+}
+.black-box h1:hover {
+    transform: scale(1.1);
+  }
+.black-box img {
+    max-height: 400px; /* Adjust the height as needed */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    transition: all 1s ease-in-out;
+    border-radius: 30px;
+}
+.black-box img:hover {
+    transform: scale(1.1);
+  }
+.black-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 10vh; /* Adjust the top margin as needed */
+}
+.playfair-display-regular {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .white-box {
+    /* background-color: rgb(252, 252, 252) !important;
+    color: rgb(2, 2, 2); */
+    background: rgba( 255, 255, 255, 0.55 );
+box-shadow: 0 8px 32px 0 rgba(245, 33, 150, 0.37);
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 60;
+    margin: 20px auto; /* Center the box and add top margin */
+    
+}
+.white-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 10vh; /* Adjust the top margin as needed */
+}
+.white-box img {
+    max-height: 600px; /* Adjust the height as needed */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+}
+.about{
+    font-family:"Playfair Display", serif ;
+    font-size: large;
+    word-spacing: 3px;
+    padding: 50px;
+    font-style: italic;
+    transition: all 1s ease-in-out;
+}
+.about:hover {
+    transform: scale(1.1);
+   
+  }
+  
